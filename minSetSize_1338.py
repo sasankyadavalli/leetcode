@@ -18,4 +18,4 @@ class Solution:
             if a <= len(arr)//2:
                 break
                 
-        return count
+        return count 
