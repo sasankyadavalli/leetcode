@@ -11,9 +11,6 @@ class Solution:
 
         s =""
         for k, v in a.items():
-            b = v
-            while b > 0:
-                s = s + k
-                b -= 1
+            s = s + (k*v)
 
         return s
